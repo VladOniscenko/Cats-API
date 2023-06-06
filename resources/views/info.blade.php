@@ -36,11 +36,11 @@
               <h3 class="text-lg font-semibold text-gray-700">Get random cat image</h3>
               <p class="mt-2 text-gray-600">GET /cats</p><br>
 
-              <p class="mt-2 text-gray-600"><span class="font-semibold">Example url: </span><a class="underline" target="_blank" href="http://cats.oniscenko.com/api/cats">http://cats.oniscenko.com/api/cats</a></p>
+              <p class="mt-2 text-gray-600"><span class="font-semibold">Example url: </span><a class="underline" target="_blank" href="https://oniscenko.com/projecten/Cats/api/cats">https://oniscenko.com/projecten/Cats/api/cats</a></p>
               
               <p class="mt-2 text-gray-600">This route retrieves a json of random cat.</p>
 
-              <iframe src="http://cats.oniscenko.com/api/cats" frameborder="0"></iframe>
+              <iframe src="https://oniscenko.com/projecten/Cats/api/cats" frameborder="0"></iframe>
 
               
 
@@ -50,10 +50,10 @@
               <h3 class="text-lg font-semibold text-gray-700">Get a specific number of random cats</h3>
               <p class="mt-2 text-gray-600">GET /cats/{count}</p><br>
 
-              <p class="mt-2 text-gray-600"><span class="font-semibold">Example url: </span><a class="underline" target="_blank" href="http://cats.oniscenko.com/api/cats/5">http://cats.oniscenko.com/api/cats/5</a></p>
+              <p class="mt-2 text-gray-600"><span class="font-semibold">Example url: </span><a class="underline" target="_blank" href="https://oniscenko.com/projecten/Cats/api/cats/5">https://oniscenko.com/projecten/Cats/api/cats/5</a></p>
                 
               <p class="mt-2 text-gray-600">This route retrieves a specific number of cats based on the count parameter in json format.</p>
-              <iframe src="http://cats.oniscenko.com/api/cats/5" frameborder="0"></iframe>
+              <iframe src="https://oniscenko.com/projecten/Cats/api/cats/5" frameborder="0"></iframe>
             </section>
       
           </div>
