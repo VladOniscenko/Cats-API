@@ -15,7 +15,7 @@ class CatsController extends Controller
     {
         $data = array();
         $randomNumber = rand(1, 250);
-        $imageSrc = "https://oniscenko.com/projecten/Cats/images/" . $randomNumber . ".jpg";
+        $imageSrc = "https://oniscenko.com/projecten/Cats/images/cat_" . $randomNumber . ".jpg";
 
         $data[] = array(
             'id' => $randomNumber,
@@ -47,7 +47,7 @@ class CatsController extends Controller
         for ($i = 1; $i <= $count; $i++) {
             $randomNumber = rand(1, 250);
            
-            $imageSrc = "https://oniscenko.com/projecten/Cats/images/" . $randomNumber . ".jpg";
+            $imageSrc = "https://oniscenko.com/projecten/Cats/images/cat_" . $randomNumber . ".jpg";
         
             $data[] = array(
                 'id' => $randomNumber,
@@ -75,7 +75,7 @@ class CatsController extends Controller
 
         for ($i = 0; $i < 5; $i++) {
             $randomNumber = rand(1, 250);
-            $imageSrc = "https://oniscenko.com/projecten/Cats/images/" . $randomNumber . ".jpg";
+            $imageSrc = "https://oniscenko.com/projecten/Cats/images/cat_" . $randomNumber . ".jpg";
         
             $data[] = array(
                 'id' => $randomNumber,
